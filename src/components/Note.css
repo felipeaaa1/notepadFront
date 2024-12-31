@@ -1,0 +1,20 @@
+.note-item {
+    margin: 10px auto; /* Adiciona um espaço de 10px acima e abaixo e centraliza horizontalmente */
+    padding: 5px; /* Adiciona um espaçamento interno de 5px */
+    width: 93%; /* Define a largura da nota como 90% do container pai */
+    height: auto; /* Ajusta a altura ao conteúdo */
+    max-height: 60px; /* Define a altura máxima como 60px */
+    background-color: #fff; /* Define a cor de fundo como branca */
+    color: #333; /* Define a cor do texto como cinza escuro */
+    border: 1px solid #ddd; /* Define uma borda de 1px com cor cinza clara */
+    border-radius: 5px; /* Arredonda os cantos da nota em 5px */
+    overflow: hidden; /* Esconde o conteúdo que ultrapassar os limites */
+    text-overflow: ellipsis; /* Adiciona "..." ao final do texto que excede o limite */
+    font-size: 0.9rem; /* Define o tamanho da fonte como 0.9 rem */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona uma leve sombra abaixo do elemento */
+    word-wrap: break-word; /* Permite a quebra de linha para textos longos */
+    display: flex; /* Define o layout como flexbox */
+    align-items: center; /* Alinha verticalmente os itens no centro */
+    justify-content: center; /* Centraliza o texto horizontalmente dentro da nota */
+    margin-left: -15px;;
+}

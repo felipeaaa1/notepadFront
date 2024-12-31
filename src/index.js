@@ -1,13 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+//import App from './App';
+import Notes from './main/Container';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+        <div className="container_notes">
+      <h1>Notas</h1>
+      <Notes />
+    </div>
+
   </React.StrictMode>
 );
 

@@ -1,0 +1,61 @@
+.notes {
+  margin: 0 auto;
+  padding: 20px;
+  width: 400px;
+  background-color: #ff6f61; /* Cor de fundo mais amigável */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.notes h2 {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.saveButton {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+  align-self: center;
+
+}
+
+.deleteButton {
+  margin-top: 10px;
+  margin-left: 15px;
+  padding: 10px 20px;
+  background-color: rgb(255, 0, 0);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+.clearButton {
+  margin-top: 10px;
+  margin-right: 15px;
+  padding: 10px 20px;
+  background-color: rgb(4, 0, 255);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color:#fff;
+  color:  #000000;
+
+}

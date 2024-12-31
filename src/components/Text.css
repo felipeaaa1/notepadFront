@@ -1,0 +1,16 @@
+textarea {
+    width: 80%; /* Define a largura do textarea como 80% do elemento pai */
+    padding: 10px; /* Adiciona um espaçamento interno de 10px */
+    margin-bottom: 10px; /* Adiciona um espaço abaixo do textarea */
+    border: 2px solid #ddd; /* Define uma borda de 2px com cor cinza clara */
+    border-radius: 5px; /* Arredonda os cantos do textarea em 5px */
+    font-size: 1rem; /* Define o tamanho da fonte para 1 rem */
+    font-family: monospace; /* Define a fonte como monospace */
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra interna leve */
+    resize: none; /* Impede que o usuário redimensione o textarea */
+    transition: border-color 0.3s ease; /* Adiciona uma transição suave para a cor da borda */
+}
+
+textarea:focus {
+    border-color: #4caf50; /* Altera a cor da borda para verde ao focar no textarea */
+}
